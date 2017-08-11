@@ -66,7 +66,7 @@ namespace Shadowsocks.Model
     [Serializable]
     public class ServerSubscribe
     {
-        private static string DEFAULT_FEED_URL = "";
+        private static string DEFAULT_FEED_URL = "请修改订阅地址并ADD后点击本行再点击DELETE然后确定";
         //private static string OLD_DEFAULT_FEED_URL = "";
 
         public string URL = DEFAULT_FEED_URL;
